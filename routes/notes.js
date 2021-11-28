@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
 });
 
 router.post('/', (req, res) => {
-    console.log(red.body);
+    console.log(req.body);
 
     const { title, text } = req.body;
 
