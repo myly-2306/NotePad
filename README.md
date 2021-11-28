@@ -7,11 +7,9 @@
 
 ## Table of Contents
 * [Description](#Description)
-* [Installation](#Installation)
 * [Usage](#Usage)
 * [Lisence](#Lisence)
 * [Contributors](#Contributors)
-* [Test](#Test)
 * [Questions](#Questions)
 
 ## Description
