@@ -16,7 +16,7 @@ router.post('/', (req, res) => {
     const newNote = {
         title,
         text,
-        note_id: uuid(),
+        id: uuid(),
     };
 
     if (title && text) {
@@ -29,10 +29,16 @@ router.post('/', (req, res) => {
     }
 });
 
-router.delete('/:note_id', (req, res) => {
-    const id = req.params.note_id;
-    deleteFromFile(id, './db/db.json');
-    res.json(`delete sucessfully!`)
-})
+router.delete('/:id', (req, res) => {
+    const deleteId = req.params.id;
+
+    deleteFromFile(deleteId, './db/db.json');
+
+    const response = {
+        status: 'success'
+    };
+
+    res.json(response);
+});
 
 module.exports = router;
