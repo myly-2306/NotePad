@@ -48,6 +48,8 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 ## Usage
 To write and save notes.
 
+[https://watch.screencastify.com/v/5zeMXbp6M8gUlU0Z0ilz]
+
 ## License
 MIT License
 
